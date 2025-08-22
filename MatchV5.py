@@ -4,7 +4,7 @@ import pandas as pd
 import DataMaker
 
 
-API_KEY="RGAPI-0f3c20ed-55dd-43d6-8798-b1d97062d11c"
+API_KEY=""
 DEFAULT_REGION_CODE="euw1"
 DEFAULT_REGION="europe"
 
