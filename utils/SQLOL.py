@@ -63,7 +63,7 @@ class Matches(SQLConst._SQLConst__BASE):
 
 
 class LoLdatabase:
-    def __init__(self, logi="lol_analytic", passw="D73e55g6t08ru!", db="lol_db"):
+    def __init__(self, logi="lol_analytic", passw="", db="lol_db"):
         self.__DATABASE_URL = f"postgresql://{logi}:{passw}@localhost/{db}"
         self.__ENGINE = create_engine(self.__DATABASE_URL, echo=True)
         
